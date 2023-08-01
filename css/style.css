@@ -1,0 +1,100 @@
+* {
+    margin: 0 auto;
+    
+}
+
+h1 {
+    background-color: rgb(123, 181, 232);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: center;
+}
+
+.uno {
+    background-color: rgb(64, 86, 195);
+    display: flex;
+    flex-direction: row;
+    height: 150px;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.caja-foto {
+    background-color: brown;
+    width: 100px;
+    height: 100px;
+    margin-left: 40px;
+    border: solid 2px;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+.foto-perfil {
+    height: 150px;
+    width: 150px;
+}
+
+.caja-texto {
+    background-color: rgb(254, 211, 180);
+    width: 300px;
+    padding: 10px;
+    border: solid 2px;
+    border-radius: 5px;
+
+}
+
+.dos {
+    display: flex;
+    flex-direction: row;
+    background-color: rgb(123, 181, 232);
+    height: 300px;   
+    padding-top: 10px; 
+}
+
+.titulo-experiencia{
+    text-align: center;
+    background-color: rgb(254, 211, 180);
+}
+.caja-uno {
+    border: solid 2px;
+    width: 150px;
+    background-color: rgb(64, 86, 195);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+
+.caja-dos {
+    border: solid 2px;
+    width: 250px;
+    background-color: rgb(64, 86, 195);
+    border-radius: 20px;
+    overflow: hidden;
+}
+
+.titulo-aptitudes{
+    text-align: center;
+    background-color: rgb(254, 211, 180);
+}
+
+footer {
+    height: 130px;
+    background-color: rgb(254, 211, 180);
+    justify-content: space-evenly;
+}
+
+.logo {
+    width: 30px;
+    height: 30px;
+    border-radius: 10px;
+    border: solid black 2px;
+}
+
+.caja-contacto { 
+    display: flex;
+}
+
+footer h2{
+    text-align: center;
+    background-color: rgb(64, 86, 195);
+}
